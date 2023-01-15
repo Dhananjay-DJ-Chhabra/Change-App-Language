@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259396B92974618300570035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259396B82974618300570035 /* AppDelegate.swift */; };
+		259396BB2974618300570035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259396BA2974618300570035 /* SceneDelegate.swift */; };
+		259396BD2974618300570035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259396BC2974618300570035 /* ViewController.swift */; };
+		259396C02974618300570035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259396BE2974618300570035 /* Main.storyboard */; };
+		259396C22974618700570035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259396C12974618700570035 /* Assets.xcassets */; };
+		259396C52974618700570035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259396C32974618700570035 /* LaunchScreen.storyboard */; };
+		259396D02974618800570035 /* Change_App_LanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259396CF2974618800570035 /* Change_App_LanguageTests.swift */; };
+		259396DA2974618800570035 /* Change_App_LanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259396D92974618800570035 /* Change_App_LanguageUITests.swift */; };
+		259396DC2974618800570035 /* Change_App_LanguageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259396DB2974618800570035 /* Change_App_LanguageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259396CC2974618800570035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259396AD2974618300570035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259396B42974618300570035;
+			remoteInfo = "Change App Language";
+		};
+		259396D62974618800570035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259396AD2974618300570035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259396B42974618300570035;
+			remoteInfo = "Change App Language";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		259396B52974618300570035 /* Change App Language.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Change App Language.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259396B82974618300570035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		259396BA2974618300570035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		259396BC2974618300570035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		259396BF2974618300570035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259396C12974618700570035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259396C42974618700570035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259396C62974618700570035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259396CB2974618800570035 /* Change App LanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Change App LanguageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259396CF2974618800570035 /* Change_App_LanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_App_LanguageTests.swift; sourceTree = "<group>"; };
+		259396D52974618800570035 /* Change App LanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Change App LanguageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259396D92974618800570035 /* Change_App_LanguageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_App_LanguageUITests.swift; sourceTree = "<group>"; };
+		259396DB2974618800570035 /* Change_App_LanguageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_App_LanguageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259396B22974618300570035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259396C82974618800570035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259396D22974618800570035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259396AC2974618300570035 = {
+			isa = PBXGroup;
+			children = (
+				259396B72974618300570035 /* Change App Language */,
+				259396CE2974618800570035 /* Change App LanguageTests */,
+				259396D82974618800570035 /* Change App LanguageUITests */,
+				259396B62974618300570035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259396B62974618300570035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259396B52974618300570035 /* Change App Language.app */,
+				259396CB2974618800570035 /* Change App LanguageTests.xctest */,
+				259396D52974618800570035 /* Change App LanguageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259396B72974618300570035 /* Change App Language */ = {
+			isa = PBXGroup;
+			children = (
+				259396B82974618300570035 /* AppDelegate.swift */,
+				259396BA2974618300570035 /* SceneDelegate.swift */,
+				259396BC2974618300570035 /* ViewController.swift */,
+				259396BE2974618300570035 /* Main.storyboard */,
+				259396C12974618700570035 /* Assets.xcassets */,
+				259396C32974618700570035 /* LaunchScreen.storyboard */,
+				259396C62974618700570035 /* Info.plist */,
+			);
+			path = "Change App Language";
+			sourceTree = "<group>";
+		};
+		259396CE2974618800570035 /* Change App LanguageTests */ = {
+			isa = PBXGroup;
+			children = (
+				259396CF2974618800570035 /* Change_App_LanguageTests.swift */,
+			);
+			path = "Change App LanguageTests";
+			sourceTree = "<group>";
+		};
+		259396D82974618800570035 /* Change App LanguageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259396D92974618800570035 /* Change_App_LanguageUITests.swift */,
+				259396DB2974618800570035 /* Change_App_LanguageUITestsLaunchTests.swift */,
+			);
+			path = "Change App LanguageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259396B42974618300570035 /* Change App Language */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259396DF2974618800570035 /* Build configuration list for PBXNativeTarget "Change App Language" */;
+			buildPhases = (
+				259396B12974618300570035 /* Sources */,
+				259396B22974618300570035 /* Frameworks */,
+				259396B32974618300570035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Change App Language";
+			productName = "Change App Language";
+			productReference = 259396B52974618300570035 /* Change App Language.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259396CA2974618800570035 /* Change App LanguageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259396E22974618800570035 /* Build configuration list for PBXNativeTarget "Change App LanguageTests" */;
+			buildPhases = (
+				259396C72974618800570035 /* Sources */,
+				259396C82974618800570035 /* Frameworks */,
+				259396C92974618800570035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259396CD2974618800570035 /* PBXTargetDependency */,
+			);
+			name = "Change App LanguageTests";
+			productName = "Change App LanguageTests";
+			productReference = 259396CB2974618800570035 /* Change App LanguageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259396D42974618800570035 /* Change App LanguageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259396E52974618800570035 /* Build configuration list for PBXNativeTarget "Change App LanguageUITests" */;
+			buildPhases = (
+				259396D12974618800570035 /* Sources */,
+				259396D22974618800570035 /* Frameworks */,
+				259396D32974618800570035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259396D72974618800570035 /* PBXTargetDependency */,
+			);
+			name = "Change App LanguageUITests";
+			productName = "Change App LanguageUITests";
+			productReference = 259396D52974618800570035 /* Change App LanguageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259396AD2974618300570035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					259396B42974618300570035 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					259396CA2974618800570035 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 259396B42974618300570035;
+					};
+					259396D42974618800570035 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 259396B42974618300570035;
+					};
+				};
+			};
+			buildConfigurationList = 259396B02974618300570035 /* Build configuration list for PBXProject "Change App Language" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259396AC2974618300570035;
+			productRefGroup = 259396B62974618300570035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259396B42974618300570035 /* Change App Language */,
+				259396CA2974618800570035 /* Change App LanguageTests */,
+				259396D42974618800570035 /* Change App LanguageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259396B32974618300570035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259396C52974618700570035 /* LaunchScreen.storyboard in Resources */,
+				259396C22974618700570035 /* Assets.xcassets in Resources */,
+				259396C02974618300570035 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259396C92974618800570035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259396D32974618800570035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259396B12974618300570035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259396BD2974618300570035 /* ViewController.swift in Sources */,
+				259396B92974618300570035 /* AppDelegate.swift in Sources */,
+				259396BB2974618300570035 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259396C72974618800570035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259396D02974618800570035 /* Change_App_LanguageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259396D12974618800570035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259396DC2974618800570035 /* Change_App_LanguageUITestsLaunchTests.swift in Sources */,
+				259396DA2974618800570035 /* Change_App_LanguageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259396CD2974618800570035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259396B42974618300570035 /* Change App Language */;
+			targetProxy = 259396CC2974618800570035 /* PBXContainerItemProxy */;
+		};
+		259396D72974618800570035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259396B42974618300570035 /* Change App Language */;
+			targetProxy = 259396D62974618800570035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259396BE2974618300570035 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259396BF2974618300570035 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259396C32974618700570035 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259396C42974618700570035 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259396DD2974618800570035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		259396DE2974618800570035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259396E02974618800570035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49PTZF8DC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Change App Language/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.djLearning.dj.Change-App-Language";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259396E12974618800570035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49PTZF8DC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Change App Language/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.djLearning.dj.Change-App-Language";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259396E32974618800570035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49PTZF8DC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.djLearning.dj.Change-App-LanguageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Change App Language.app/Change App Language";
+			};
+			name = Debug;
+		};
+		259396E42974618800570035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49PTZF8DC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.djLearning.dj.Change-App-LanguageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Change App Language.app/Change App Language";
+			};
+			name = Release;
+		};
+		259396E62974618800570035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49PTZF8DC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.djLearning.dj.Change-App-LanguageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Change App Language";
+			};
+			name = Debug;
+		};
+		259396E72974618800570035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F49PTZF8DC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.djLearning.dj.Change-App-LanguageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Change App Language";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259396B02974618300570035 /* Build configuration list for PBXProject "Change App Language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259396DD2974618800570035 /* Debug */,
+				259396DE2974618800570035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259396DF2974618800570035 /* Build configuration list for PBXNativeTarget "Change App Language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259396E02974618800570035 /* Debug */,
+				259396E12974618800570035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259396E22974618800570035 /* Build configuration list for PBXNativeTarget "Change App LanguageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259396E32974618800570035 /* Debug */,
+				259396E42974618800570035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259396E52974618800570035 /* Build configuration list for PBXNativeTarget "Change App LanguageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259396E62974618800570035 /* Debug */,
+				259396E72974618800570035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259396AD2974618300570035 /* Project object */;
+}
