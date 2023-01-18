@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Change App Language
+
+  Created by Dhananjay on 15/01/23.
+  
+*/
+
+"FirstNameKey" = "पहला नाम";
+"LastNameKey" = "अंतिम नाम";
